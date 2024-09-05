@@ -25,8 +25,8 @@ cd NewsScraperPlus/src
 python3 -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-pip install flask pandas sqlalchemy beautifulsoup4 requests openpyxl
+pip3 install flask pandas sqlalchemy beautifulsoup4 requests openpyxl
 
-python app.py
+python3 app.py
